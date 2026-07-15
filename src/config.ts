@@ -1,193 +1,180 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Pavan",
+        fullName: "Mamindla Pavan",
+        title: "Backend Engineer | Full Stack Developer | AI Developer",
+        description:
+            "Backend Engineer and Full Stack Developer building scalable APIs, modern web applications, and AI-powered solutions. Experienced in Python, FastAPI, React, databases, cloud technologies, and intelligent automation systems."
     },
+
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        github: "Pavan01Mamindla",
+        email: "pavanmamindla1@gmail.com",
+        location: "Hyderabad, Telangana"
     },
+
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description:
+            "I am a Backend Engineer and Full Stack Developer with 3 years of experience building scalable software systems, secure REST APIs, and healthcare technology platforms. I specialize in Python, FastAPI, Flask, React, databases, authentication systems, and AI-enabled applications. I enjoy designing efficient backend architectures, optimizing performance, and creating reliable solutions that improve user experiences. My expertise includes API development, cloud technologies, database optimization, automation, and modern full-stack development."
     },
+
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            position: "Assistant System Engineer",
+            company: "Luminaire Technologies",
+            period: "Sep 2023 - Present",
+            location: "Bangalore, India",
+            description:
+                "Working on AI-assisted healthcare platforms by developing scalable backend services, secure APIs, and intelligent automation workflows.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Developing RESTful APIs for patient onboarding, hearing assessments, and healthcare workflows",
+                "Implementing JWT authentication, RBAC, consent management, and secure data handling",
+                "Building backend services supporting AI/LLM-powered troubleshooting and recommendations",
+                "Improving performance using Redis caching, query optimization, and asynchronous processing"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: [
+                "Python",
+                "FastAPI",
+                "SQLAlchemy",
+                "MySQL",
+                "Redis",
+                "JWT",
+                "AI/LLM"
+            ]
         },
+
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            position: "Backend Development Intern",
+            company: "Medien Digital Networks",
+            period: "June 2023 - Aug 2023",
+            location: "Palni, India",
+            description:
+                "Developed backend services and APIs for business workflow automation while gaining experience with production development practices.",
             responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
+                "Built REST APIs using Python Flask and CRUD operations",
+                "Designed and optimized SQL database queries",
+                "Tested APIs using Postman and maintained Git workflows",
+                "Worked with Linux environments and CI/CD fundamentals"
             ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
-        },
-        {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
-            responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
-            ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
-        },
-        {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
-            responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
-            ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: [
+                "Python",
+                "Flask",
+                "REST APIs",
+                "MySQL",
+                "Postman",
+                "Git"
+            ]
         }
     ],
+
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
+            title: "Food Delivery Backend Application",
+            category: "Backend / Full Stack",
+            technologies:
+                "Python, Flask, MySQL, JWT, REST APIs, SQLAlchemy",
+            image: "/images/fooddelivery.jpg",
+            description:
+                "A scalable food delivery backend application featuring restaurant management, menu management, shopping cart, order processing, payment integration, delivery tracking, JWT authentication, role-based access control, CRUD operations, and an optimized relational database architecture designed for production-level scalability."
         },
+    
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/votechain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking."
+            title: "AI Assisted Healthcare Platform",
+            category: "AI / Healthcare",
+            technologies:
+                "Python, FastAPI, MySQL, Redis, JWT, AI/LLM",
+            image: "/images/healthcare.jpg",
+            description:
+                "An AI-powered healthcare platform developed for patient onboarding, hearing assessments, hearing-aid workflows, intelligent troubleshooting, automated recommendations, secure authentication, consent management, and high-performance backend services using Redis caching and asynchronous processing."
         },
+    
         {
             id: 3,
-            title: "EIE - Earthquake Impact Estimator",
-            category: "IoT / Hardware",
-            technologies: "Arduino, C++, IoT Sensors, Python, ML, React",
-            image: "/images/eie.png",
-            description: "A practical circuit-based IoT system utilizing Arduino to predict earthquakes before they strike. Integrates hardware sensors for real-time seismic detection and impact estimation."
+            title: "Developer Portfolio Website",
+            category: "Frontend / Full Stack",
+            technologies:
+                "React, TypeScript, JavaScript, CSS, Vite",
+            image: "/images/portfolio.jpg",
+            description:
+                "A modern responsive developer portfolio showcasing professional experience, technical skills, featured projects, certifications, and contact information with smooth animations, responsive layouts, and optimized performance."
         },
+    
         {
             id: 4,
-            title: "GameKroy",
-            category: "Full Stack",
-            technologies: "React, Node.js, MongoDB, Express, Stripe, TailwindCSS",
-            image: "/images/gamekroy.png",
-            description: "A full-featured e-commerce platform for gaming products. Includes user authentication, product catalog, shopping cart, secure payments, order tracking, and admin dashboard."
+            title: "REST API Management System",
+            category: "Backend Development",
+            technologies:
+                "Python, FastAPI, PostgreSQL, JWT, Redis",
+            image: "/images/api.jpg",
+            description:
+                "A production-style backend application demonstrating secure authentication, RESTful API development, role-based authorization, Redis caching, PostgreSQL integration, scalable architecture, and efficient database management for enterprise-grade applications."
         },
+    
         {
             id: 5,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/redxchess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation."
-        },
-        {
-            id: 6,
-            title: "Floodhub",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/floodhub.png",
-            description: "A flood prediction model specifically designed for Bangladesh's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
-        },
-        {
-            id: 7,
-            title: "Phoenix",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/phoenix.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience."
-        },
-        {
-            id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes."
+            title: "Expense Tracker Mobile Application",
+            category: "Mobile / Full Stack",
+            technologies:
+                "React, JavaScript, Node.js, Express.js, MongoDB, Render, GitHub",
+            image: "/images/expensetracker.jpg",
+            description:
+                "A full-stack Expense Tracker mobile application with secure authentication and expense management features. Users can register, log in, log out, reset passwords, manage their profile, add/edit/delete expenses, organize transactions by category, and analyze spending through daily, weekly, monthly, and yearly expense summaries. The backend is built with Node.js, Express.js, and MongoDB, deployed on Render, with version control using GitHub."
         }
     ],
+
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "pavanmamindla1@gmail.com",
+        github: "https://github.com/Pavan01Mamindla",
+        linkedin: "https://linkedin.com/in/mamindlapavan",
+        twitter: "https://x.com/Pavan1Mamindla",
+        facebook: "",
+        instagram: "https://www.instagram.com/_pavan_mamindla/"
     },
+
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "BACKEND & AI DEVELOPER",
+            description:
+                "Building scalable backend systems and intelligent applications",
+            details:
+                "Experienced in backend engineering, API development, AI-powered applications, database optimization, and automation using Python and modern technologies.",
+            tools: [
+                "Python",
+                "FastAPI",
+                "Flask",
+                "REST APIs",
+                "JWT",
+                "SQLAlchemy",
+                "Redis",
+                "AI/LLM",
+                "Machine Learning",
+                "Async Processing"
+            ]
         },
+
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "FULL STACK DEVELOPER",
+            description:
+                "Creating modern web applications and user experiences",
+            details:
+                "Building responsive full-stack applications using React, JavaScript, Node.js, Express.js, databases, and modern development practices.",
+            tools: [
+                "React",
+                "JavaScript",
+                "Node.js",
+                "Express.js",
+                "HTML5",
+                "CSS3",
+                "TypeScript",
+                "MongoDB",
+                "MySQL",
+                "PostgreSQL",
+                "Git",
+                "GitHub"
+            ]
         }
     }
 };
-
-
